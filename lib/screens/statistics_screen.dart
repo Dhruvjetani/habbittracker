@@ -3,8 +3,7 @@ import 'package:provider/provider.dart';
 
 import '../ providers/habit_provider.dart';
 import '../ widgets/stat_card.dart';
-import '../providers/habit_provider.dart';
-import '../widgets/stat_card.dart';
+
 
 class StatisticsScreen extends StatelessWidget {
   static const String routeName = '/statistics';
@@ -31,7 +30,7 @@ class StatisticsScreen extends StatelessWidget {
             physics: const NeverScrollableScrollPhysics(),
             mainAxisSpacing: 12,
             crossAxisSpacing: 12,
-            childAspectRatio: 1.45,
+            childAspectRatio: 1.15,
             children: [
               StatCard(
                 title: 'Total Habits',
